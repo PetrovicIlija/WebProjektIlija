@@ -209,13 +209,11 @@ footer.footsy p a{
     color: #fff;
     text-decoration: none;
     text-align: center;
-    width: 100%;
-    line-height: 8px;
 }
 
 /*######### Mobile ###########*/
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1000px) {
   ul.topnav li:not(:nth-child(1)) {
     display: none;
   }
@@ -270,7 +268,7 @@ footer.footsy p a{
     display: block;
   }
   
-  div.slopeIcon {
+  div.rogueIcon {
     margin: 10px;
   }
   
