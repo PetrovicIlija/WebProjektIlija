@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Leon Rogina</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <nav>
+    <ul class="topnav" id="dropdownClick">
+      <li><a class="active" href="#home">Naslovnica</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Kontakt</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#appointment">Termin</a></li>
+      <li><a href="#educations">Edukacije</a></li>
+      <li><a href="#pricelist">Cjenik</a></li>
+      <li><a href="#reviews">Recenzije</a></li>
+      <li class="topnav-right"><a href="#signup">Sign In</a></li>
+      <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+      <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+    </ul>
+  </nav>
+
+  <div class="container" id="section-1-gradient">
+    <div class="row">
+      <div class="col-6">
+        <div class="leftSide-col">
+          <h1 class="large">Leon Rogina</h1>
+          <h1 class="large">Rehabilitacija i powerlifting</h1>
+        </div>
+        <form>
+          <div class="leftSide-col">
+            <h2>Korisničko ime</h2>
+            <input class="inputbox" name="username" type="text" placeholder="Korisničko ime">
+            <h2>Lozinka</h2>
+            <input class="inputbox" name="password" type="text" placeholder="Lozinka">
+          </div>
+        </form>
+      </div>
+      <div class="col-6">
+        <div class="rightSide-col">
+          <div class="videoContainer">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3eHkTOX1IRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header>
+    <h1 class="section2Header">Usluge u ponudi</h1>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="box">
+          <div class="icon">
+            <img src="physioLogo.jpg">
+          </div>
+          <label>Konzultacije</label>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box">
+          <div class="icon">
+            <img src="physioLogo.jpg">
+          </div>
+          <label>Rehabilitacije</label>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="box">
+          <div class="icon">
+            <img src="physioLogo.jpg">
+          </div>
+          <label>Coaching</label>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <button class="learnMore">Saznaj više</button>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col-7">
+        <article>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </article>
+      </div>
+      <div class="col-5">
+        <div class="slopeIcon">
+          <img src="rogina.png">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="footsy">
+    <div class="row">
+      <div class="col-6 mobileStack">
+        <h1>Rehabilitacija</h1>
+        <ul>
+          <li>Post 1</li>
+          <li>Post 2</li>
+          <li>Post 3</li>
+        </ul>
+      </div>
+      <div class="col-6 mobileStack">
+        <h1>Powerlifing</h1>
+        <ul>
+          <li>Post 1</li>
+          <li>Post 3</li>
+          <li>Post 3</li>
+        </ul>
+      </div>
+      </div>
+      <div class="row">
+          <div class = "col-12 mobileStack">
+              <p><a class="dev" href = "https://www.facebook.com/ilija.petrovic.35110/">Designed by <u>Ilija</u></a></p>
+          </div>
+      </div>
+  </footer>
+
+
+  
+  
+  <script>
+    function dropdownMenu() {
+      var x = document.getElementById("dropdownClick");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+        /*change topnav to topnav.responsive*/
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
