@@ -12,4 +12,4 @@ U ovisnosti o složenosti koja će se razviti, razmatra se mogućnost
 * mogućnost postanja na blogu od strane trenera bez potrebe za interferencijom developera
 
 ## Planirane tehnologije
- Zasad je u planu korištenje React-a za razvitak frontenda, a za razvoj backenda u užem izboru su Node.js i PHP.
+ Koristit će se MERN stack, dakle MongoDB, express, React i Node.js.
